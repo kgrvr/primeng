@@ -349,7 +349,7 @@ export class Tree implements AfterContentInit {
             }
             else {
                 for(let i = 0; i  < this.selection.length; i++) {
-                    if(this.selection[i] == node) {
+                    if(this.selection[i].data == node.data) {
                         index = i;
                         break;
                     }
